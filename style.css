@@ -1,0 +1,38 @@
+/*
+Theme Name: Proto
+Theme URI: https://saberwp/themes/proto/
+Author: SaberWP
+Author URI: https://saberwp.com/
+Description: A stylish block theme highly optimized for use with the Gutenberg editor.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0.0
+Requires at least: 5.6
+Tested up to: 5.8
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: proto
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+	--wp--preset--font-family--inter: 'Inter', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+.wp-block-cover.full-width-cover-block.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container {
+	width: 100%;
+}
+
+.proto-fixed-left {
+	position: fixed;
+	width: 50% !important;
+}
+
+.proto-fixed-column-neighbor {
+	margin-left: 50% !important;
+}
