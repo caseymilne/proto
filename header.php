@@ -1,4 +1,8 @@
-<!-- wp:columns {"style":{"color":{"background":"#0073aa"}}} -->
+<?php
+
+wp_head();
+
+$blocks = parse_blocks( '<!-- wp:columns {"style":{"color":{"background":"#0073aa"}}} -->
 <div class="wp-block-columns has-background" style="background-color:#0073aa"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:navigation {"orientation":"horizontal","textColor":"palette-color-8","itemsJustification":"right","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"normal"} -->
 <!-- wp:navigation-link {"label":"Register","type":"page","id":685,"url":"http://saberwp.dev.cc/register","kind":"post-type","isTopLevelLink":true} /-->
@@ -25,3 +29,25 @@
 <!-- /wp:navigation --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"gradient":"teen-party"} -->
+<div class="wp-block-column has-teen-party-gradient-background has-background"><!-- wp:paragraph {"align":"center","textColor":"palette-color-8","fontSize":"huge"} -->
+<p class="has-text-align-center has-palette-color-8-color has-text-color has-huge-font-size">This site is running an experiment FSE theme named Proto. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"contentJustification":"right"} -->
+<div class="wp-block-buttons is-content-justification-right"><!-- wp:button {"backgroundColor":"black","textColor":"white","width":50,"className":"is-style-outline","fontSize":"medium"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size is-style-outline has-medium-font-size"><a class="wp-block-button__link has-white-color has-black-background-color has-text-color has-background"><strong>Learn More about FSE (Full Site Editing)</strong></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+' );
+foreach( $blocks as $block ) {
+
+	echo render_block( $block );
+
+}
+
+?>

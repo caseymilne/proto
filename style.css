@@ -79,3 +79,33 @@ footer.wp-block-template-part .wp-block-columns {
 	margin: 0;
 
 }
+
+/* Navigation */
+.wp-block-navigation__container a:hover {
+
+	color: #929CA5;
+
+}
+
+.wp-block-navigation__container .current-menu-item a {
+
+	color: #D7D7D7;
+
+}
+
+/* Header Sticky */
+header.wp-block-template-part {
+
+	position: sticky;
+	top: 32px;
+	width: 100%;
+	z-index: 9999;
+
+}
+
+/* Page Body */
+#primary {
+
+	padding: 0 2.375em;
+	
+}
