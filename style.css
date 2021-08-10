@@ -20,19 +20,62 @@ Text Domain: proto
 	--wp--preset--font-family--inter: 'Inter', sans-serif;
 }
 
+html {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	margin: 0;
+	font-family: 'Inter', sans-serif;
 }
 
 .wp-block-cover.full-width-cover-block.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container {
 	width: 100%;
 }
 
-.proto-fixed-left {
-	position: fixed;
-	width: 50% !important;
+.proto-secondary-menu > ul {
+	width: 100%;
 }
 
-.proto-fixed-column-neighbor {
-	margin-left: 50% !important;
+.proto-secondary-menu .wp-block-navigation__container>.wp-block-navigation-link {
+	margin-right: 0;
+}
+
+
+.wp-block-column.is-vertically-aligned-center .wp-block-image {
+
+	margin: 0;
+
+}
+
+header.wp-block-template-part .wp-block-columns {
+
+	margin: 0;
+
+}
+
+header.wp-block-template-part .wp-block-columns.has-background:first-child {
+
+	padding-top: 0.35em;
+	padding-bottom: 0.35em;
+
+}
+
+p {
+
+	max-width: 800px;
+
+}
+
+footer.wp-block-template-part {
+
+	margin: 0;
+
+}
+
+footer.wp-block-template-part .wp-block-columns {
+
+	margin: 0;
+
 }

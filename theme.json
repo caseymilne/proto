@@ -20,18 +20,6 @@
 			"area": "header"
 		},
 		{
-			"name": "header-sideflow",
-			"area": "header"
-		},
-		{
-			"name": "header-sticky",
-			"area": "header"
-		},
-		{
-			"name": "header-fire",
-			"area": "header"
-		},
-		{
 			"name": "footer",
 			"area": "footer"
 		}
@@ -56,16 +44,7 @@
 				{ "slug": "white", "name": "White", "color": "#ffffff" }
 			],
 			"gradients": [
-				{ "slug": "blue-to-purple", "name": "Blue to Purple", "gradient": "linear-gradient(135deg,var(--wp--preset--color--blue) 0%,var(--wp--preset--color--purple) 70%)" },
-				{ "slug": "purple-to-red", "name": "Purple to Red", "gradient": "linear-gradient(135deg,var(--wp--preset--color--purple) 0%,var(--wp--preset--color--red) 100%)" },
-				{ "slug": "orange-to-red", "name": "Orange to Red", "gradient": "linear-gradient(135deg,var(--wp--preset--color--orange) 0%,var(--wp--preset--color--red) 60%)" },
-				{ "slug": "yellow-to-salmon-to-red", "name": "Yellow to Salmon to Red", "gradient": "linear-gradient(135deg,var(--wp--preset--color--yellow) 0%,var(--wp--preset--color--salmon) 50%,var(--wp--preset--color--red) 100%)" },
-				{ "slug": "yellow-to-green", "name": "Yellow to Green", "gradient": "linear-gradient(135deg,var(--wp--preset--color--yellow) 0%,var(--wp--preset--color--green) 100%)" },
-				{ "slug": "green-to-blue", "name": "Green to Blue", "gradient": "linear-gradient(135deg,var(--wp--preset--color--green) 0%,var(--wp--preset--color--blue) 80%)" },
-				{ "slug": "blue-to-purple-to-pink", "name": "Blue to Purple to Pink", "gradient": "linear-gradient(135deg,var(--wp--preset--color--blue) 0%,var(--wp--preset--color--purple) 40%,var(--wp--preset--color--pink) 90%)" },
-				{ "slug": "red-to-pink-to-purple-to-blue", "name": "Red to Pink to Purple to Blue", "gradient": "linear-gradient(135deg,var(--wp--preset--color--red) 0%,var(--wp--preset--color--pink) 30%,var(--wp--preset--color--purple) 70%,var(--wp--preset--color--blue) 100%)" },
-				{ "slug": "grey-to-dark", "name": "Grey to Dark", "gradient": "linear-gradient(135deg,var(--wp--preset--color--grey) 0%,var(--wp--preset--color--black) 80%)" },
-				{ "slug": "light-to-grey", "name": "Light to Grey", "gradient": "linear-gradient(135deg,var(--wp--preset--color--light) 0%,var(--wp--preset--color--grey) 80%)" }
+				{ "slug": "blue-to-purple", "name": "Blue to Purple", "gradient": "linear-gradient(135deg,var(--wp--preset--color--blue) 0%,var(--wp--preset--color--purple) 70%)" }
 			],
 			"customGradient": true
 		},
@@ -75,26 +54,6 @@
 					"fontFamily": "Inter, sans-serif",
 					"name": "Inter",
 					"slug": "inter"
-				},
-				{
-					"fontFamily": "\"Work Sans\", sans-serif",
-					"name": "Work Sans",
-					"slug": "work-sans"
-				},
-				{
-					"fontFamily": "Roboto, sans-serif",
-					"name": "Roboto",
-					"slug": "roboto"
-				},
-				{
-					"fontFamily": "\"Roboto Slab\", serif",
-					"name": "Roboto Slab",
-					"slug": "roboto-slab"
-				},
-				{
-					"fontFamily": "Merriweather, serif",
-					"name": "Merriweather",
-					"slug": "merriweather"
 				}
 			],
 			"fontSizes": [
