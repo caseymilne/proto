@@ -81,6 +81,14 @@ footer.wp-block-template-part .wp-block-columns {
 }
 
 /* Navigation */
+
+header.wp-block-template-part nav.has-light-color a:hover {
+
+	opacity: 0.85;
+	color: #FFF;
+
+}
+
 .wp-block-navigation__container a:hover {
 
 	color: #929CA5;
@@ -94,12 +102,21 @@ footer.wp-block-template-part .wp-block-columns {
 }
 
 /* Header Sticky */
-header.wp-block-template-part {
+
+header.wp-block-template-part .wp-block-group.proto-sticky-header {
 
 	position: sticky;
-	top: 32px;
+	top: 0;
 	width: 100%;
 	z-index: 9999;
+
+}
+
+
+/* Push sticky header down when admin bar showing. */
+body.admin-bar header.wp-block-template-part .wp-block-group.proto-sticky-header {
+
+	top: 32px;
 
 }
 
@@ -107,5 +124,10 @@ header.wp-block-template-part {
 #primary {
 
 	padding: 0 2.375em;
-	
+	margin: 3.75em 0 4.5em 0;
+
+}
+
+.alignright.wp-block-site-logo {
+	text-align: right;
 }
