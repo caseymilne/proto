@@ -12,6 +12,10 @@
 		{
 			"name": "page-blank-canvas",
 			"title": "Blank Canvas"
+		},
+		{
+			"name": "single-sacom_product",
+			"title": "SC Product"
 		}
 	],
 	"templateParts": [
@@ -26,6 +30,10 @@
 		{
 			"name": "footer",
 			"area": "footer"
+		},
+		{
+			"name": "nav-header",
+			"area": "general"
 		}
 	],
 	"settings": {
